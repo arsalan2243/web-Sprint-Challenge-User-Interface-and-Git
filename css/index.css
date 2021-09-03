@@ -190,7 +190,6 @@ p {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -259,4 +258,42 @@ footer nav a {
   text-align: center;
   padding: 20px 0px 20px 20px;
 }
-p
+.num {
+  background-color: teal;
+}
+
+.num1 {
+  background-color: gold;
+}
+
+.num2 {
+  background-color: cadetblue;
+}
+
+.num3 {
+  background-color: coral;
+}
+
+.num4 {
+  background-color: crimson;
+}
+
+.num5 {
+  background-color: forestgreen;
+}
+
+.num6 {
+  background-color: darkorchid;
+}
+
+.num7 {
+  background-color: hotpink;
+}
+
+.num8 {
+  background-color: indigo;
+}
+
+.num9 {
+  background-color: dodgerblue;
+}
