@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +128,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -257,10 +263,12 @@ footer nav a {
   color: white;
   background-color: black;
 }
+
 .toppic {
   text-align: center;
   padding: 20px 0px 20px 20px;
 }
+
 .num {
   background-color: teal;
 }
@@ -304,12 +312,13 @@ footer nav a {
 /* start of exclusive css for about page */
 .toppic1 {
   text-align: center;
-  padding: 20px 0px 20px 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 
 .about1 {
   border-bottom: 1px dotted black;
-  padding: 0px 0px 20px 25px;
+  padding: 15px;
   margin: 0px 200px;
   text-align: left;
 }
@@ -323,14 +332,15 @@ footer nav a {
   margin: 15px 12px;
 }
 
-.new {
+.learn-more {
   background-color: white;
   color: black;
+  padding: 10px;
   border-radius: 25px;
   margin: 20px;
 }
 
-.new:hover {
+.learn-more:hover {
   background-color: black;
   color: white;
 }
@@ -340,18 +350,8 @@ footer nav a {
   border-bottom: 1px black dotted;
 }
 
-.new2 {
-  background-color: black;
-  color: white;
-}
-
-.new2:hover {
-  background-color: white;
-  color: black;
-}
-
-.lets {
-  padding: 0px 0px 20px 25px;
+.footer-p {
+  padding: 10px 40px;
   margin: 0px 200px;
 }
 
@@ -372,4 +372,14 @@ footer nav a {
   text-decoration: none;
   font-weight: bold;
   padding: 0px 25px;
+}
+
+.footer-button {
+  background-color: black;
+  color: white;
+}
+
+.footer-button:hover {
+  background-color: white;
+  color: black;
 }
